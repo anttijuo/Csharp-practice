@@ -12,12 +12,22 @@ Console.ReadLine();
 
 // Data Types
 
-char grade = 'A';
-string phrase = "Test Program";
-int age = 30;
-float small = 3.3;
-double big = 3.0003;
-decimal verybig = 3.00000003;
-bool amAlive = true;
+//char grade = 'A';
+//string phrase = "Test Program";
+//int age = 30;
+//float smalldecimal
+//double normaldecimal = 3.3;
+//decimal verybigdecimal
+//bool amAlive = true;
+
+// Strings
+ 
+string phrase1 = "Pizza ";
+string phrase2 = "is tasty";
+Console.WriteLine(phrase1 + phrase2);
+Console.WriteLine(phrase1.ToUpper() + phrase2);
+Console.WriteLine(phrase1.Contains("Pizza"));
+Console.WriteLine(phrase1[0] + "-" + phrase1[0] + "-" + phrase1);
+Console.WriteLine(phrase2.Substring(3, 5));
 
 Console.ReadLine();
